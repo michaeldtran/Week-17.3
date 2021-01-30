@@ -1,0 +1,35 @@
+nav {
+    height: 50px;
+    background-color: lightgrey;
+}
+.inline-block {
+    background-color: grey;
+    display: inline-block;
+    padding: 15px;
+    color: white
+}
+.left {
+    width: 29%;
+    height: 1000px;
+    float: left;
+    background-color: blue;
+}
+.right {
+    width: 70%;
+    height: 1000px;
+    float: left;
+    background-color: teal;
+}
+.left_top {
+    height: 30%;
+    float: top;
+    background-color: red;
+    color: white;
+    padding: 0.1px;
+}
+.left_bottom {
+    background-color: orange;
+    height: 70%;
+    float: bottom;
+    padding: 0.1px;
+}
