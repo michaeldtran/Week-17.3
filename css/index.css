@@ -1,35 +1,62 @@
-nav {
-    height: 50px;
-    background-color: lightgrey;
-}
-.inline-block {
-    background-color: grey;
-    display: inline-block;
-    padding: 15px;
-    color: white
-}
-.left {
-    width: 29%;
-    height: 1000px;
-    float: left;
-    background-color: blue;
-}
-.right {
-    width: 70%;
-    height: 1000px;
-    float: left;
-    background-color: teal;
-}
-.left_top {
-    height: 30%;
-    float: top;
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box; 
+} 
+.navigation {
+    display: block;
     background-color: red;
-    color: white;
-    padding: 0.1px;
 }
-.left_bottom {
-    background-color: orange;
-    height: 70%;
-    float: bottom;
-    padding: 0.1px;
+.navigationList {
+    border: 1px solid black;
+}
+
+.navigationListItem {
+    display: inline-block;
+    background-color: gray;
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+.aside {
+    background-color: green;
+    width: 29%;
+    height: 500 px;
+    float: left;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main {
+    background-color: violet;
+    float: right;
+    width: 70%;
+    height: 700px;
+    padding: 10px;
+}
+.section {
+    margin-top: 10px;
+    position: relative;
+}
+.imageContainer {
+    height: 100 px;
+    width: 150 px;
+    position: absolute;
+    left: 0;
+
+}
+.headlineContainer {
+    width: 500px;
+    height: 30 px;
+    position: absolute;
+    left: 200px;
+}
+.paragraphContainer {
+    width: 500px;
+    position:absolute;
+    left: 255px;
+    top: 30px;
 }

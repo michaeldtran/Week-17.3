@@ -4,29 +4,42 @@
   <link href="css/index.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <div class=block_element>
-            <a href="https:/www.google.com"><div class=inline-block>Home</div></a>
-            <a href="https:/www.google.com"><div class=inline-block>About</div></a>
-            <a href="https:/www.google.com"><div class=inline-block>Contact</div></a>
-        </div>
+    <nav class=navigation>
+        <ul class="navigationList">
+            <li class="navigationListItem">Home</li><li class="navigationListItem">Diet</li>
+            <li class="navigationListItem">Habitat</li>
+        </ul>
     </nav>
-
-    <section class="wrapper">
-        <div class="left">
-            <div class="left_top">
-                <h1>
-                    Pet Name
-                </h1>
-                <img src="images/Screen-Shot-2014-05-07-at-5.23.11-PM-345x222.png">
+    <aside class="aside">
+        <div class="image">
+            <img src="images/Screen-Shot-2014-05-07-at-5.23.11-PM-345x222.png" alt="">
+        </div> <!--image-->
+        <div>
+            <ul>
+                <li>Pet Stats</li>
+                <li>Breed</li>
+                <li>Age</li>
+                <li>Favourite Toy</li>
+                <li>Average Walk Per Day</li>
+                <li>Owner Name</li>
+            </ul>
+        </div> <!--list of items-->
+    </aside>
+    <main class="main">
+        <section class="section"> <!--one image section-->
+            <div class="imageContainer">
+                <img src="images/Screen-Shot-2014-05-07-at-5.23.11-PM-345x222.png" alt="">
             </div>
-            <div class="left_bottom">
-                <P>left bottom</P>
+            <div class="headlineContainer">
+                <p>Lorem Ipsum Heading</p>
             </div>
-        </div>
-        <div class="right">
-            <p>This is the right side.</p>
-        </div>
-    </section>
+            <div class="paragraphContainer">
+                <p>Lorem Ipsum Copy</p>
+            </div>
+        </section>
+        <section> <!--three image section-->
+            
+        </section>
+    </main>
 </body>
 </html>
